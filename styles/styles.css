@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+}
+.gamer{
+    display: flex;
+}
+.funny-vedios{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
