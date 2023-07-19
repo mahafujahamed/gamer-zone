@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+
     <title>Gamer Zone</title>
+
 </head>
 <!-- header -->
 <header>
@@ -31,14 +36,14 @@
     <!-- Header Section -->
     <section>
         <div class="header">
-            <div>
-                <h2>PLAY LIKE THE</h2>
-                <h2>G.O.A.T</h2>
+            <div class="header-details">
+                <h2 id="header-title">play like the</h2>
+                <h2 id="header-more">G.O.A.T</h2>
                 <p>1-click instant play</p>
                 <p>No Download</p>
                 <p>1000s of support online games</p>
-                <button>SIGN IN</button>
-                <button>GO ROGUE</button>
+                <button id="sign-btn">SIGN IN</button>
+                <button id="rogue-btn">GO ROGUE</button>
             </div>
             <div>
                 <img src="images/Group 18.png" alt="">
@@ -52,21 +57,23 @@
                 <img src="images/pngwing 4.png" alt="">
             </div>
             <div>
-                <h2>We are gamer</h2>
-                <p>An international digital games and entertainment
+                <h2 id="gamer-title">We are gamer</h2>
+                <p id="gamer-details">An international digital games and entertainment
                     company. We develop, publish and distribute multiplayer
                     mobile games. We reach over 400 million players each
                     month and our audience keeps growing</p>
-                <button>KNOW MORE</button>
-                <p>Our Purpose...</p>
-                <blockquote>"unleash the gamer in everyone"</blockquote>
+                <button id="know-more-btn">KNOW MORE</button>
+                <p id="purpose">Our Purpose... <br>
+                    <q id="quote">unleash the gamer in everyone</q>
+                </p>
+
             </div>
         </div>
     </section>
     <!-- Funny Vedios section-->
     <section>
-        <h2>Online Games Funny Videos</h2>
-        <p>A Collection of Hilarious Videos to Brighten Your Day</p>
+        <h2 id="funny-vedio">Online Games <span id="vedio-title">Funny Videos</span></h2>
+        <p id="vedio-details">A Collection of Hilarious Videos to Brighten Your Day</p>
         <div class="funny-vedios">
             <div>
                 <img src="images/Rectangle 4.png" alt="">
@@ -92,15 +99,16 @@
     </section>
     <!-- Dounloads & Install section -->
     <section>
-        <div>
+        <div class="install">
             <div>
-                <h2>Play Instantly,</h2>
-                <h1>No Downloads
+                <h2 id="play-title"><span id="plays-title">Play Instantly,</span>
+                    <br>No Downloads
                     <br>No Installs.
-                </h1>
-                <p>Play games online for free without
-                    downloading. Just click the Play button
-                    and play instantly in your browser</p>
+                </h2>
+                <p id="play-details">Play games online for free without
+                    <br>downloading. Just click the Play button
+                    <br>and play instantly in your browser
+                </p>
             </div>
             <div>
                 <img src="images/Rectangle 55.png" alt=""><img src="images/Rectangle 66.png" alt="">
@@ -109,31 +117,32 @@
     </section>
     <!-- Play Games section -->
     <section>
-        <div>
+        <div class="play-games">
             <div>
                 <img src="images/Rectangle 67.png" alt=""><img src="images/Rectangle 78.png" alt="">
             </div>
             <div>
-                <h2>Play Games
-                    Online Anywhere,
-                    Anytime!</h2>
-                <p>PC. dad s phone, moms tablet, or your Chromebook,
-                    with Gamer you can play your favorite games online
+                <h2 id="play-games-title"><span id="play-games-titles">Play Games
+                        <br>Online</span> Anywhere,
+                    <br>Anytime!
+                </h2>
+                <p>PC. dad s phone, moms tablet, or your <br>Chromebook,
+                    with Gamer you can play your favorite games <br>online
                     for free, any time, anywhere , on any device.</p>
             </div>
         </div>
     </section>
     <!-- Career section -->
     <section>
-        <div>
+        <div class="career">
             <div>
-                <h2>Careers</h2>
-                <p>Gamer is driven to create the best and most fun games for our millions of
+                <h2 id="career-title">Careers</h2>
+                <p id="career-details">Gamer is driven to create the best and most fun games for our millions of
                     players all around the world, and we,re always on the lookout for more top
                     talent to join our growing team. If you,d like to help us make great games
                     and be a part of Gamers bright future, we,d love to hear from you.</p>
-                <div>
-                    <div>
+                <div class="career-dev">
+                    <div id="engineer">
                         <p>Multimedia Artist +</p>
                         <p>Data Engineer +</p>
                         <p>Server Developer +</p>
@@ -141,7 +150,7 @@
                         <p>Group Financial Accountant +</p>
                         <p>Senior User Acuisition Specialist +</p>
                     </div>
-                    <div>
+                    <div class="location">
                         <p>Lisbon, Portugal</p>
                         <p>Lisbon, Portugal</p>
                         <p>Zoetermeer, Netherlands</p>
@@ -150,7 +159,7 @@
                         <p>Lisbon, Portugal</p>
                     </div>
                 </div>
-                <button>SEE ALL POSITIONS</button>
+                <button id="positions-btn">SEE ALL POSITIONS</button>
             </div>
             <div>
                 <img src="images/Group 65.png" alt="">
@@ -159,48 +168,50 @@
     </section>
     <!-- More Games -->
     <section>
-        <div>
-            <div>
-                <img src="images/Rectangle 11.png" alt="">
-                <p>Action Games</p>
-            </div>
-            <div>
-                <img src="images/Rectangle 12.png" alt="">
-                <p>Adventure Games</p>
-            </div>
-            <div>
-                <img src="images/Rectangle 13.png" alt="">
-                <p>Arcade Games</p>
-            </div>
-            <div>
-                <img src="images/Rectangle 14.png" alt="">
-                <p>Educational Games</p>
-            </div>
-            <div>
-                <img src="images/Rectangle 15.png" alt="">
-                <p>World Games</p>
-            </div>
-            <div>
-                <img src="images/Rectangle 16.png" alt="">
-                <p>Role Playing Games</p>
-            </div>
-            <div>
-                <img src="images/Rectangle 17.png" alt="">
-                <p>Music & Audio Games</p>
-            </div>
-            <div>
-                <img src="images/Rectangle 18.png" alt="">
-                <p>Puzzle Games</p>
-            </div>
-            <div>
-                <img src="images/Rectangle 19.png" alt="">
-                <p>Strategy Games</p>
-            </div>
+        <div class="more-games-card">
+            
+                <div>
+                    <img src="images/Rectangle 11.png" alt="">
+                    <p>Action Games</p>
+                </div>
+                <div>
+                    <img src="images/Rectangle 12.png" alt="">
+                    <p>Adventure Games</p>
+                </div>
+                <div>
+                    <img src="images/Rectangle 13.png" alt="">
+                    <p>Arcade Games</p>
+                </div>
+                <div>
+                    <img src="images/Rectangle 14.png" alt="">
+                    <p>Educational Games</p>
+                </div>
+                <div>
+                    <img src="images/Rectangle 15.png" alt="">
+                    <p>World Games</p>
+                </div>
+                <div>
+                    <img src="images/Rectangle 16.png" alt="">
+                    <p>Role Playing Games</p>
+                </div>
+                <div>
+                    <img src="images/Rectangle 17.png" alt="">
+                    <p>Music & Audio Games</p>
+                </div>
+                <div>
+                    <img src="images/Rectangle 18.png" alt="">
+                    <p>Puzzle Games</p>
+                </div>
+                <div>
+                    <img src="images/Rectangle 19.png" alt="">
+                    <p>Strategy Games</p>
+                </div>
+            
         </div>
     </section>
 </body>
 <!-- footer -->
-<footer>
+<footer class="footer">
     <div>
         <div>
             <img src="images/Frame.png" alt="">
