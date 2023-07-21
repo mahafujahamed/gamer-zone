@@ -1,9 +1,13 @@
 .header {
     display: flex;
+    margin-top: 50px;
 }
 
 .gamer {
     display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .funny-vedios {
@@ -23,10 +27,11 @@
     color: #0B0223;
     text-align: center;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    margin-top: 20px;
+    /* line-height: normal; */
     text-transform: uppercase;
 }
 
@@ -36,7 +41,7 @@
     font-size: 95px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
+    /* line-height: normal; */
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -59,11 +64,11 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    /* line-height: normal; */
 }
 
 #sign-btn {
-
+    margin-left: 40px;
     display: inline-flex;
     padding: 21px 40px;
     align-items: flex-start;
@@ -74,7 +79,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    /* line-height: normal; */
     text-transform: uppercase;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 
@@ -114,10 +119,15 @@
     line-height: 30px;
 }
 
+/* .gamer-align button{
+    align-items: flex-end;
+    justify-content: flex-end; */
+/* } */
 #know-more-btn {
-    display: inline-flex;
+
+    float: right;
     padding: 21px 40px;
-    align-items: flex-start;
+
     gap: 10px;
     border-radius: 48px;
     color: #FFF;
@@ -133,7 +143,6 @@
 
 #purpose {
     color: #534C64;
-    text-align: right;
     font-family: Work Sans;
     font-size: 24px;
     font-style: normal;
@@ -182,10 +191,22 @@
     font-weight: 700;
     line-height: normal;
 }
+.funny-vedios{
+    margin: 50px 20px;
+}
+.funny-vedios img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    
+}
 
 /* paly and download css */
 .install {
     display: flex;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* height: 90vh; */
 }
 
 #plays-title {
@@ -198,10 +219,10 @@
 #play-title {
     text-align: right;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 42px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
+    font-weight: 800;
+    
 }
 
 #play-details {
@@ -211,12 +232,60 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    
+}
+
+.download-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    padding-left: 30%;
+}
+
+#download-second-image {
+    position: absolute;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    margin-top: 60px;
+    left: 50%;
+}
+
+.install-details {
+    padding-left: 80px;
+    padding-top: 70px;
 }
 
 /* Play games css */
 .play-games {
     display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.play-games-align {
+    /* margin-left: 100px; */
+    /* margin-top: 70px; */
+    padding-left: 235px;
+    padding-top: 200px;
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+#second-image {
+    position: absolute;
+    right: 42%;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    margin-top: 65px;
 }
 
 #play-games-title {
@@ -246,6 +315,7 @@
 /* Career css */
 .career {
     display: flex;
+    margin-top: 150px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 
@@ -309,7 +379,10 @@
 .more-games-card {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    justify-content: center;
     gap: 20px;
+    margin-top: 40px;
 
 }
 
