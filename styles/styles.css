@@ -10,10 +10,11 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
 /* navbar css */
 .navbar {
     display: flex;
-   
+
 }
 
 /* Header css */
@@ -315,6 +316,8 @@
 /* Footer css */
 .footer {
     background: #0B0223;
+    height: 80vh;
+    margin-top: 30px;
 }
 
 footer h2 {
@@ -330,8 +333,57 @@ footer h2 {
     -webkit-text-fill-color: transparent;
 }
 
-footer a{
-    text-decoration: none;
-    align-items: center;
-    justify-content: space-between;
+footer p {
+    text-align: center;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+
+}
+
+.footer-link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-icons {
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-icons img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+.footer-terms {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.footer-terms p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-copy p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
