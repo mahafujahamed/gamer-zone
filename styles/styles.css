@@ -16,9 +16,21 @@
 }
 
 /* navbar css */
-.navbar {
+.navber {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.navber a{
+    text-decoration: none;
+    color: #0B0223;
+    font-family: Work Sans;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /* Header css */
@@ -60,6 +72,7 @@
 
 .header-details p {
     color: #534C64;
+    text-align: left;
     font-family: Work Sans;
     text-align: center;
     font-size: 20px;
@@ -72,6 +85,7 @@
     margin-left: 170px;
     display: inline-flex;
     padding: 21px 40px;
+    margin-top: 30px;
     /* align-items: center;
     justify-content: center; */
     /* float: right; */
@@ -89,7 +103,7 @@
 }
 
 #rogue-btn {
-
+    margin-top: 30px;
     display: inline-flex;
     padding: 21px 40px;
     align-items: flex-start;
@@ -192,6 +206,19 @@
     align-items: center;
 }
 
+/* .overlay p {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
 .vedio-button {
     background-color: #fff;
     /* Customize the button background color */
@@ -203,6 +230,7 @@
     cursor: pointer;
     font-size: 16px;
 }
+
 .image-play-vedio:hover .overlay {
     opacity: 1;
 }
